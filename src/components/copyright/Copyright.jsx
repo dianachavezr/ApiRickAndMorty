@@ -1,8 +1,9 @@
 import React from 'react'
+import './copyright.css'
 
 const Copyright = () => {
   return (
-    <span>Copyright 2022. All Rights Reserved</span>
+    <span className="Copyright">Copyright 2022. All Rights Reserved</span>
   )
 }
 
