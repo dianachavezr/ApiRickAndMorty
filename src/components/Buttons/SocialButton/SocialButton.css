@@ -1,0 +1,42 @@
+:root {
+  --black: #060606;
+  --lightBlack: #252030;
+  --gray: #d8d9d8;
+  --purple: #a934a6;
+  --darkPurple: #481746;
+  --green: #25c44e;
+  --blue: #38d3e5;
+}
+
+.contSocial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  align-items: center;
+}
+.contSocial,
+.socialButton img,
+.socialButton .socialIcon {
+  margin: auto;
+}
+.socialButton img,
+.socialButton .socialIcon {
+  padding: 1rem 0;
+}
+.socialButton .socialIcon:hover, .socialButton img:hover  {
+  opacity: 0.8;
+}
+
+.socialButton img {
+  width: 2rem;
+}
+.socialButton .socialIcon {
+  font-size: 2rem;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .contSocial {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

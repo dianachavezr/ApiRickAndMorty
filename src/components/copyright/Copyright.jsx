@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Copyright = () => {
+const Copyright = (props) => {
   return (
-    <span>Copyright 2022. All Rights Reserved</span>
+    <span style={{color: props.color}}>Copyright 2022. All Rights Reserved</span>
   )
 }
 
