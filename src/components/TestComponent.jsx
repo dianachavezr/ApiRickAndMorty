@@ -1,7 +1,7 @@
 import React from 'react'
-import CloseButton from './closeButton/CloseButton'
-import LinksButtons from './linkButton/LinksButtons'
-
+import CloseButton from './Buttons/closeButton/CloseButton'
+import LinksButtons from './Buttons/linkButton/LinksButtons'
+import ToggleSwitch from './Buttons/pageConfig/PageConfig'
 
 
 const TestComponent = () => {
@@ -9,6 +9,7 @@ const TestComponent = () => {
     <div>
     <LinksButtons/>
     <CloseButton/>
+    <ToggleSwitch label=" " />
     </div>
   )
 }

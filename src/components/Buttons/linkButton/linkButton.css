@@ -1,5 +1,5 @@
 .linkButtons{
-    width: 300px;
+    width: 100%;
     display:inline-block;
     height: auto;
     background-color: var(--darkPurple);  
@@ -21,12 +21,16 @@
 }
 
 @media (min-width: 768px){
+    .linkButtons{
+        width: 300px;
+    }
     .btn{
         font-size: 20px;        
     }
 }
 
 @media (min-width: 1024px){
+   
     .btn{
         font-size: 30px;        
     }
