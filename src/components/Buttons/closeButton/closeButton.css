@@ -1,0 +1,14 @@
+.closeButton img{
+   width: 20px;
+   }
+
+.closeButton{
+    border: none;
+    background-color: var(--transparent);
+}
+
+@media (min-width: 1024px){
+    .closeButton img{
+        width: 25px;        
+    }
+}
