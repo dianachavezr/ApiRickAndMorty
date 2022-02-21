@@ -11,7 +11,7 @@ const TestComponent = () => {
   return (
     <div className='testComponents'>
        <NavbarLightMode/>
-     
+       <NavbarDarkMode/>
       <Footer/> 
      
       
