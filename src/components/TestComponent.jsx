@@ -1,7 +1,8 @@
-import React from 'react'
 import CloseButton from './Buttons/closeButton/CloseButton'
 import LinksButtons from './Buttons/linkButton/LinksButtons'
 import ToggleSwitch from './Buttons/pageConfig/PageConfig'
+
+import Carousel from './Sections/Carousel/Carousel'
 
 
 const TestComponent = () => {
@@ -10,6 +11,8 @@ const TestComponent = () => {
     <LinksButtons/>
     <CloseButton/>
     <ToggleSwitch label=" " />
+
+    <Carousel/>
     </div>
   )
 }
