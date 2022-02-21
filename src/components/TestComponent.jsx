@@ -1,15 +1,12 @@
 import React from 'react'
-import CloseButton from './Buttons/closeButton/CloseButton'
-import LinksButtons from './Buttons/linkButton/LinksButtons'
-import ToggleSwitch from './Buttons/pageConfig/PageConfig'
+import LandingSec from './Sections/LandingSec/LandinSec'
+
 
 
 const TestComponent = () => {
   return (
     <div>
-    <LinksButtons/>
-    <CloseButton/>
-    <ToggleSwitch label=" " />
+     <LandingSec />
     </div>
   )
 }
