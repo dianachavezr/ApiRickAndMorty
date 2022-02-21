@@ -1,0 +1,118 @@
+:root{
+    --black: #060606;
+    --lightBlack: #252030;
+    --gray: #D8D9D8;
+    --purple: #A934A6;
+    --darkPurple: #481746;
+    --green: #25C44E;
+    --blue: #38D3E5;
+    --darkBlue:#33254c;
+    --greenMedium:#90f58e;
+    }
+
+.landingSearch {
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+
+.searchTitle{
+    color: var(--greenMedium);
+    text-shadow: 0 0 10px #54dfb5, 0 0 35px #54dfb5, 0 0 60px #54dfb5, 0 0 100px #54dfb5;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 30px;
+    }   
+
+.inputicon{
+    font-size: 1.4rem;
+    color: var(--blue);
+    }
+
+.searchInput{
+    width: 60vw;
+    height: 1.2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background-color: #c4c4c423;
+    /*font-family: "font awesome 5 free";
+    font-weight: bold;*/
+    }
+.inputBox{
+    background-color: transparent;
+    width: 19rem;
+    height: 7vh;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.searchBtn{
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090b25;
+    border-radius: 50%;
+}
+
+.searchBtn:hover{
+    background-color: #fcfdfd;
+}
+
+@media only screen and (min-width: 500px) {
+   .searchInput{
+    width: 16rem;
+    height: 2rem;
+   }
+
+   .searchTitle{
+      font-size: 1.5rem;
+    }
+   .inputBox{
+      top: 70%;
+    }
+ }
+ @media only screen and (min-width: 700px) {
+   
+    .searchTitle{
+       font-size: 1.9rem;
+     }
+     .inputBox{
+        top: 73%;
+      }
+  }
+  @media only screen and (min-width: 900px) {
+    .inputBox{
+        top: 76%;
+      }
+      }
+
+
+ @media only screen and (min-width: 1024px) {
+     .landingSearch{
+         width: 50%;
+         height: 40vh;
+         left: 0%;
+         justify-content: flex-start;
+      }
+      .inputBox{
+        top: 50%;
+      }
+ 
+ }
+  
+
+
+ 
+
+
+
+
+    
+     
