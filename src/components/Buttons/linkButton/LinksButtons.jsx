@@ -5,7 +5,7 @@ const LinksButtons = () => {
   return (
     <div className='linkButtons'>
       {/* BOTONES CARDC CHARACTER*/}
-   <LinkButton background='var(--black)'  color='var(--gray)'  text='Home'/>
+   <LinkButton className='btnHome'  background='var(--black)'  color='var(--gray)'  text='Home'/>
    <LinkButton background='var(--black)'  color='var(--gray)'  text='Docs'/>
    <LinkButton background='var(--black)'  color='var(--gray)'  text='Characters' />
 

@@ -1,15 +1,20 @@
 import React from 'react'
-import CloseButton from './Buttons/closeButton/CloseButton'
-import LinksButtons from './Buttons/linkButton/LinksButtons'
-import ToggleSwitch from './Buttons/pageConfig/PageConfig'
+import './testComponent.css'
+import NavbarLightMode from './Sections/NavbarLigthMode/NavbarLightMode'
+import NavbarDarkMode from './Sections/NavbarDarkMode/NavbarDarkMode'
+import Footer from './Sections/Footer/Footer'
+
+
 
 
 const TestComponent = () => {
   return (
-    <div>
-    <LinksButtons/>
-    <CloseButton/>
-    <ToggleSwitch label=" " />
+    <div className='testComponents'>
+       <NavbarLightMode/>
+     
+      <Footer/> 
+     
+      
     </div>
   )
 }
