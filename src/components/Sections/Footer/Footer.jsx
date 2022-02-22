@@ -9,7 +9,9 @@ const Footer = () => {
   return (
     <div className='footer'>
         <SocialButton/>
-        <Copyright color="white"/>
+        <div className="footerCopyRight" >
+          <Copyright color="white" />
+        </div>
     </div>
   )
 }

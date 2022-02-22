@@ -1,12 +1,3 @@
-:root {
-  --black: #060606;
-  --lightBlack: #252030;
-  --gray: #d8d9d8;
-  --purple: #a934a6;
-  --darkPurple: #481746;
-  --green: #25c44e;
-  --blue: #38d3e5;
-}
 
 .contSocial {
   display: grid;
@@ -31,8 +22,7 @@
   width: 2rem;
 }
 .socialButton .socialIcon {
-  font-size: 2rem;
-  color: white;
+  filter: invert(100%);
 }
 
 @media (min-width: 1024px) {

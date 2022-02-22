@@ -10,8 +10,10 @@ import ParticleBackground from '../../configparticles/ParticleBackground';
         return (
             <div className="landingSec">
                 <ParticleBackground />
-                <LandingImage />
-                <LandingSearch />
+                    <div className='mainSection'>
+                        <LandingImage />
+                        <LandingSearch />
+                    </div>
             </div>
           );
       } 

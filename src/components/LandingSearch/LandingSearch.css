@@ -40,6 +40,13 @@
     /*font-family: "font awesome 5 free";
     font-weight: bold;*/
     }
+
+input:focus{
+    color:  #38D3E5;
+     border: 1px solid #38D3E5;
+     outline: none;
+}
+
 .inputBox{
     background-color: transparent;
     width: 19rem;
@@ -65,11 +72,12 @@
     align-items: center;
     background-color: #090b25;
     border-radius: 50%;
+    border:1px solid #090b25;
 }
 
 .searchBtn:hover{
-    background-color: #fcfdfd;
-}
+  box-shadow: 0 0 2px #54dfb5, 0 0 10px #54dfb5, 0 0 60px #54dfb5, 0 0 100px #54dfb5;
+  }
 
 @media only screen and (min-width: 500px) {
    .searchInput{
@@ -101,6 +109,7 @@
 
 
  @media only screen and (min-width: 1024px) {
+
      .landingSearch{
          width: 50%;
          height: 40vh;
@@ -108,22 +117,25 @@
          justify-content: flex-start;
         }
       .searchTitle{
-        margin-top:50px;
+        margin-top:0%;
+        padding-top:0px;
       }
       .inputBox{
-        top: 40%;
+        top: 50%;
       }
  
- }
- @media only screen and (min-width: 1220px) {
-   .searchTitle{
-     margin-top:10px;
-   }
-   .inputBox{
-     top: 50%;
-   }
+    }
+    @media only screen and (min-width: 1220px) {
+      .searchTitle{
+        padding-top:0px;
+        font-size: 1.8rem;
+        margin-top: 0%;
+       }
+      .inputBox{
+        top: 50%;
+      }
 
-}
+    }
   
 
 
