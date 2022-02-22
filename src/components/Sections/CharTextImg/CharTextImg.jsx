@@ -3,6 +3,7 @@ import './CharTextImg.css'
 import TitleChar from './TitleChar'
 import ImgChar from './ImgChar'
 import TextChar from './TextChar'
+import Copyright from '../../copyright/Copyright'
 
 
 const CharTextImg = () => {
@@ -12,7 +13,7 @@ const CharTextImg = () => {
 
     useEffect(() => {
         const getChar = async (/* id || url */) => {
-        let data = await fetch("https://rickandmortyapi.com/api/character/826")/* https://rickandmortyapi.com/api/character/${id} */
+        let data = await fetch("https://rickandmortyapi.com/api/character/1")/* https://rickandmortyapi.com/api/character/${id} */
         let resp = await data.json()
         console.log(resp.origin.name)
         console.log(resp)
@@ -31,7 +32,7 @@ const CharTextImg = () => {
             <ImgChar image={character.image} id={character.id}/>
             <TextChar species={character.species} originChar={character.origin.name} created={character.created} gender={character.gender} status={character.status}/>
         </div>
-
+        <Copyright/>
     </div>
   )
 }
