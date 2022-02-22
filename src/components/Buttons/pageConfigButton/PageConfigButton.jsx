@@ -2,7 +2,7 @@ import React from "react";
 import "./pageConfigButton.css";
   
 const ToggleSwitch = ({ label }) => {
-  {/* BUTTON PAGE CONFIG*/}
+  /* BUTTON PAGE CONFIG*/
   return (
     <div className="container">
       {label}{" "}
