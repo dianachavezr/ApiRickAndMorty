@@ -3,20 +3,21 @@ import './navbarLight.css'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
 import ToggleSwitch from '../../Buttons/pageConfigButton/PageConfigButton'
 import LogoRM from '../../logo/LogoBlue'
+import { NavLink } from 'react-router-dom'
 
 function NavbarLightLaptop({background, text, color}) {
   return (
     <nav className='navbar'>
 
     <div className='leftButtons'>
-    <a href='/'><LinkButton background='var(--black)'  color='var(--gray)'  text='Home'/></a>
-    <a href='/#characters'><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></a>
+    <NavLink to="/"><LinkButton background='var(--black)'  color='var(--gray)'  text='Home'/></NavLink>
+    <NavLink to ="#"><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
     </div>
     <div className='logo'>
     <LogoRM/>
     </div>
     <div className='rightButtons'>
-    <a href='/#docs'><LinkButton background='var(--black)'  color='var(--gray)'  text='Docs'/></a>
+    <NavLink to="/carruselpage"><LinkButton background='var(--black)'  color='var(--gray)'  text='Species'/></NavLink>
     <ToggleSwitch label=" " />
     </div>
     </nav>
