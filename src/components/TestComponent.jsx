@@ -9,7 +9,7 @@ const TestComponent = () => {
   return (
     <div className='testComponents'>
        
-       <NavbarDarkMode/>
+       <NavbarLightMode/>
        <LandinSec/>
       <Footer/> 
      
