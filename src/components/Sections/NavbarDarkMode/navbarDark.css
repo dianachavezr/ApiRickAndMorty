@@ -45,24 +45,20 @@
     background: rgba(0, 0, 0, 0);
 }
 .navbarHamburguerTop {
-    width: 20%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 0.5rem;
 }
-
+nav
 .navbarHamburguer-Logo {
     max-width: 30px;
-    width: 100%;
-    position: absolute;
-    top: 20px;
 }
 
 .navbarHamburguer1 {
     position: absolute;
     width: 100%;
     background-color: var(--gray);
-    top: 70px;
+    top: 100%;
     left: 0;
     padding-left: 20px;
 }
@@ -92,13 +88,9 @@
         0 0 60px var(--blue), 0 0 210px var(--purple);
 }
 .iconCloseHamburguer {
-    position: absolute;
-    height: 40px;
-    top: 15px;
-    right: 20px;
 }
 
-@media (min-width: 425px) {
+/* @media (min-width: 425px) {
     .navbarHamburguerTop {
         justify-content: space-around;
     }
@@ -169,4 +161,4 @@
         left: 58%;
         width: 30%;
     }
-}
+} */

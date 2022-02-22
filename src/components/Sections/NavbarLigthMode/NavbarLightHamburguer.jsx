@@ -34,16 +34,13 @@ function NavbarHamburguer() {
     return (
         <div className="navbarHamburguer">
             <div className="navbarHamburguerTop">
-                <a href="https://www.google.com/" target="_blank">
-                    <img className="navbarHamburguer-Logo" src={Github} />
-                </a>
-                <a href="https://www.google.com/" target="_blank">
-                    <img className="navbarHamburguer-Logo" src={Educamas} />
-                </a>
+                <img className="navbarHamburguer-Logo" src={Github} />
+
+                <img className="navbarHamburguer-Logo" src={Educamas} />
             </div>
             <Logo className="logoHamburguer" />
 
-            <nav>
+            <nav className="btn-ham">
                 {open ? hamburguerCloseIcon : hamburguerOpenIcon}
                 {open && <NavLinks isMobile={true} closeMenu={closeMenu} />}
             </nav>

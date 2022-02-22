@@ -1,16 +1,14 @@
 .btnLogo{
     display: flex;
     justify-content: center;
-    width: 30%;    
+    
 }
 
 
 .logoRyM{
-
-
-    height: 70%;
     background-color:var(--transparent);
     transition: 2s ease-in-out 100ms;
+    height: 65px;
 }
 
 .btnLogoGreen{
@@ -20,8 +18,8 @@
     text-align: center;
     margin-top: -10px;
     color: var(--blue);
- 
 }
+
 .btnLogoGreen p{
     font-size: 1rem;   
 }
@@ -65,7 +63,6 @@
 
 @media (min-width: 768px){
     .logoRyMGreen{
-        left: 3%;    
     }
 
    
@@ -73,8 +70,6 @@
 
 @media (min-width: 1024px){
     .logoRyM {
-        width: 250px;
-        top:-40px;
     }
 
     .btnLogoGreen{
