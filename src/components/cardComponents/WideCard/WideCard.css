@@ -1,17 +1,18 @@
-.WideCard{
-    position: relative;
+.container-carousel {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.WideCard > img{
-    border-radius: 15px;
-    height: 12rem;
-    width: 12rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.carousel-wrapper {
+    width: 90%;
 }
 
-.WideCard > p {
+.textName{
     position: absolute;
-    bottom: -2px;
-    left: 8px;
+    bottom: -10px;
     text-shadow: 4px 4px 16px #dfd9d9;
 }
