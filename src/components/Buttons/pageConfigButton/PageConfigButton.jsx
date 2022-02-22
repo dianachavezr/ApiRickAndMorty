@@ -1,5 +1,5 @@
 import React from "react";
-import "./pageConfig.css";
+import "./pageConfigButton.css";
   
 const ToggleSwitch = ({ label }) => {
   {/* BUTTON PAGE CONFIG*/}

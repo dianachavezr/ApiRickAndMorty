@@ -1,0 +1,95 @@
+.btnLogo{
+    display: flex;
+    justify-content: center;
+    width: 30%;    
+}
+
+
+.logoRyM{
+    position: absolute;
+    left: 38%;
+    width: 120px;
+    background-color:var(--transparent);
+    transition: 2s ease-in-out 100ms;
+}
+
+.btnLogoGreen{
+    position: relative;
+    width: 120px;
+    height: 65px;
+    text-align: center;
+    margin-top: -10px;
+    color: var(--blue);   
+}
+.btnLogoGreen p{
+    text-shadow: black;
+}
+
+
+.logoRyMGreen{
+    left:0;
+    top:-20px;
+    width: 120px;
+    background-color:var(--transparent);
+    transition: 2s ease-in-out 100ms;
+}
+
+.logoRyM:hover, .logoRyMGreen:hover {
+    rotate: x 360deg;
+    box-shadow: 0 0 150px var(--purple), 0 0 250px var(--blue), 0 0 150px var(--blue), 0 0 210px var(--purple);
+    border-radius: 15%;
+}
+
+@media (min-width: 425px) {
+    .logoRyM, .logoRyMGreen{
+        left: 43%;
+    }
+}
+
+@media (min-width: 425px) {
+    .logoRyM, .logoRyMGreen{
+        left: 43%;
+    }
+}
+
+@media (min-width:640px) {
+    .logoRyM{
+        left: 43%;
+        top:-30px;
+    }
+    .logoRyMGreen{
+        left: 3%;
+        top:-30px;
+    }
+}
+
+@media (min-width: 768px){
+    .logoRyMGreen{
+        left: 3%;    
+    }
+
+   
+}
+
+@media (min-width: 1024px){
+    .logoRyM {
+        width: 250px;
+        top:-40px;
+    }
+    .logoRyMGreen{
+        width: 215px;
+        top:0;
+        left: 10px;
+        margin: auto;
+    }
+    .btnLogoGreen{
+        position: relative;
+        width: 220px;
+        height: 65px;
+        text-align: center;
+        margin-top: -10px;
+        font-size: 1.5rem; 
+    
+    }
+
+}
