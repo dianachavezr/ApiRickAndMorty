@@ -14,8 +14,6 @@
     left: auto;
 }
 
-
-
 .logo{
     position: absolute;
     top:5%;
@@ -95,7 +93,7 @@
 
 @media (min-width:640px){
     .navbar{
-        height: 180px;
+        height: 12vh;
         justify-content: center;
     }
 
