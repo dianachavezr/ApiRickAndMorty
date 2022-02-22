@@ -1,0 +1,9 @@
+.headerCarru{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../assets/cena.png);
+    background-size: cover;
+    height: 70vh;
+ }
+
