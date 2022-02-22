@@ -4,8 +4,9 @@
     align-items: center;
     width: 100%;
     height: 220px;
-    background-color:var(--darkBlue);
     display: none;
+    position: fixed;
+    z-index: 5 ;
 }
 
 .leftButtonsDark{
@@ -104,7 +105,7 @@
 
 @media (min-width:640px){
     .navbarDark{
-        height: 180px;
+        height: 12vh;
         justify-content: center;
     }
 
@@ -169,4 +170,5 @@
             left: 58%;
             width: 30%;
         }
+
         }
