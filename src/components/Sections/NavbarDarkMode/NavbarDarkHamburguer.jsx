@@ -24,12 +24,12 @@ function NavbarDarkHamburguer() {
 
   return (
       <div className='navbarDarkHamburguer'>
-        <div className='navbarHamburguerTop'>
+        <div className='navbarDarkHamburguerTop'>
         
         <a  href='#' target='_blank' ><img className='navbarHamburguer-Logo'  src= {Github} /></a>
          <a  href='#' target='_blank' ><img className='navbarHamburguer-Logo'  src= {Educamas} /></a>
          </div>
-         <LogoGreen className='logoHamburguer'/>
+         <LogoGreen/>
          
          
       <nav >

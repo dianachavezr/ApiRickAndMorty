@@ -1,35 +1,30 @@
 .btnLogo{
     display: flex;
-    justify-content: center;
-    width: 30%;    
+    justify-content: center;    
 }
 
-
 .logoRyM{
-    position: absolute;
-    left: 38%;
-    width: 120px;
     background-color:var(--transparent);
     transition: 2s ease-in-out 100ms;
+    height: 65px;
 }
 
 .btnLogoGreen{
     position: relative;
-    width: 120px;
+    width: 165px;
     height: 65px;
     text-align: center;
     margin-top: -10px;
-    color: var(--blue);   
+    color: var(--blue);
 }
+
 .btnLogoGreen p{
-    text-shadow: black;
+    font-size: 1rem;   
 }
 
 
 .logoRyMGreen{
-    left:0;
-    top:-20px;
-    width: 120px;
+    height: 70%;
     background-color:var(--transparent);
     transition: 2s ease-in-out 100ms;
 }
@@ -53,35 +48,15 @@
 }
 
 @media (min-width:640px) {
-    .logoRyM{
-        left: 43%;
-        top:-30px;
-    }
+
     .logoRyMGreen{
         left: 3%;
         top:-30px;
     }
 }
 
-@media (min-width: 768px){
-    .logoRyMGreen{
-        left: 3%;    
-    }
-
-   
-}
-
 @media (min-width: 1024px){
-    .logoRyM {
-        width: 250px;
-        top:-40px;
-    }
-    .logoRyMGreen{
-        width: 215px;
-        top:0;
-        left: 10px;
-        margin: auto;
-    }
+
     .btnLogoGreen{
         position: relative;
         width: 220px;
@@ -89,7 +64,5 @@
         text-align: center;
         margin-top: -10px;
         font-size: 1.5rem; 
-    
     }
-
 }

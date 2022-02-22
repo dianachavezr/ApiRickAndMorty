@@ -34,7 +34,7 @@ function LandingSearch(props) {
           <h3 className="searchTitle">Look for your favorite character</h3>
           <div className='inputBox'>
             <form className='formBox' onSubmit={e =>{e.preventDefault();handleSubmit();}}>
-              <input className='searchInput' placeholder="Search.." onChange={e => setTerm(e.target.value)}/>
+              <input className='searchInput' placeholder="Type Character.." onChange={e => setTerm(e.target.value)}/>
               <button className='searchBtn' href='#' ><FaSistrix className='inputicon' /></button>
             </form>
            
