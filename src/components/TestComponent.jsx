@@ -10,8 +10,9 @@ const TestComponent = () => {
     <div className='testComponents'>
        
        <NavbarLightMode/>
-       <LandinSec/>
-      <Footer/> 
+       <NavbarDarkMode/>
+
+
      
       
     </div>

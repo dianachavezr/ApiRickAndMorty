@@ -38,7 +38,7 @@ function NavbarHamburguer() {
 
                 <img className="navbarHamburguer-Logo" src={Educamas} />
             </div>
-            <Logo className="logoHamburguer" />
+            <Logo />
 
             <nav className="btn-ham">
                 {open ? hamburguerCloseIcon : hamburguerOpenIcon}
