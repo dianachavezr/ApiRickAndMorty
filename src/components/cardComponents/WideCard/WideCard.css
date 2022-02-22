@@ -8,11 +8,11 @@
 }
 
 .carousel-wrapper {
-    width: 90%;
+    width: 95%;
 }
 
 .textName{
     position: absolute;
-    bottom: -10px;
+    bottom: 5px;
     text-shadow: 4px 4px 16px #dfd9d9;
 }
