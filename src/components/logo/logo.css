@@ -6,8 +6,6 @@
 
 
 .logoRyM{
-
-
     height: 70%;
     background-color:var(--transparent);
     transition: 2s ease-in-out 100ms;
@@ -75,6 +73,11 @@
     .logoRyM {
         width: 250px;
         top:-40px;
+    }
+    .logoRyMGreen{
+        width: 220px;   
+        height: 70px; 
+        padding-top: 5%;
     }
 
     .btnLogoGreen{

@@ -11,7 +11,7 @@ const TestComponent = () => {
        
        <NavbarDarkMode/>
        <LandinSec/>
-      <Footer/> 
+     
      
       
     </div>

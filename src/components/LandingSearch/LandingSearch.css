@@ -109,6 +109,7 @@ input:focus{
 
 
  @media only screen and (min-width: 1024px) {
+
      .landingSearch{
          width: 50%;
          height: 40vh;
@@ -116,17 +117,20 @@ input:focus{
          justify-content: flex-start;
         }
       .searchTitle{
-        margin-top:50px;
+        margin-top:0%;
+        padding-top:0px;
       }
       .inputBox{
-        top: 40%;
+        top: 50%;
       }
  
     }
     @media only screen and (min-width: 1220px) {
       .searchTitle{
-        margin-top:10px;
-      }
+        padding-top:0px;
+        font-size: 1.8rem;
+        margin-top: 0%;
+       }
       .inputBox{
         top: 50%;
       }
