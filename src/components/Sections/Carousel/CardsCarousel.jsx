@@ -26,7 +26,7 @@ function CardsCarousel() {
 
     useEffect(()=>{
         getSpecies('humanoid',setSpecie1)
-        getSpecies('human',setSpecie2)
+        getSpecies('robot',setSpecie2)
         getSpecies('alien',setSpecie3)
     },[])
 
