@@ -1,6 +1,7 @@
 import React from 'react'
 import './navbarLight.css'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
+import LinkButtonGame from '../../Buttons/linkButton/LinkButtonGame'
 import ToggleSwitch from '../../Buttons/pageConfigButton/PageConfigButton'
 import LogoRM from '../../logo/LogoBlue'
 import { NavLink } from 'react-router-dom'
@@ -18,7 +19,7 @@ function NavbarLightLaptop({background, text, color}) {
     </div>
     <div className='rightButtons'>
     <NavLink to="/carruselpage"><LinkButton background='var(--black)'  color='var(--gray)'  text='Species'/></NavLink>
-    <NavLink to="#"><LinkButton background='var(--black)'  color='var(--gray)'  text='Games'/></NavLink>
+    <LinkButtonGame background='var(--black)' color='var(--gray)'  text='Games' url="https://www.minijuegos.com/juego/rick-mortys-rushed-licensed-adventure" />
     
     </div>
     </nav>

@@ -1,5 +1,6 @@
 import React from 'react'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
+import LinkButtonGame from '../../Buttons/linkButton/LinkButtonGame'
 import PageConfigButton from '../../Buttons/pageConfigButton/PageConfigButton'
 import { NavLink } from 'react-router-dom';
 
@@ -23,7 +24,7 @@ function NavbarLightLinks(props) {
             <NavLink to='/carruselpage'><LinkButton background='var(--black)'  color='var(--gray)'  text='Species' /></NavLink>
             </li>
             <li>
-            <NavLink to='#'><LinkButton background='var(--black)'  color='var(--gray)'  text='Games' /></NavLink>
+            <LinkButtonGame background='var(--black)' color='var(--gray)'  text='Games' url="https://www.minijuegos.com/juego/rick-mortys-rushed-licensed-adventure" />
             </li>
             
         </ul>

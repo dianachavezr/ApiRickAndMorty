@@ -33,7 +33,6 @@ This project was generated with
 
   *  ### npm start: Runs the app in the development mode to view it in your browser.
     
-    ### Deployment
 
   <h2 style="text-align:center;color: purple">Landing Page</h2>         
   <img src="./src/assets/landing.png" width="700" style="display:block; margin:auto">             
