@@ -26,8 +26,8 @@ function NavbarDarkHamburguer() {
       <div className='navbarDarkHamburguer'>
         <div className='navbarDarkHamburguerTop'>
         
-        <a  href='#' target='_blank' ><img className='navbarHamburguer-Logo'  src= {Github} /></a>
-         <a  href='#' target='_blank' ><img className='navbarHamburguer-Logo'  src= {Educamas} /></a>
+        <a  href="https://github.com/dianachavezr/ApiRickAndMorty" target='_blank' ><img className='navbarHamburguer-Logo'  src= {Github} /></a>
+         <a  href="https://educamas.com.co/programate/" target='_blank' ><img className='navbarHamburguer-Logo'  src= {Educamas} /></a>
          </div>
          <LogoGreen/>
          

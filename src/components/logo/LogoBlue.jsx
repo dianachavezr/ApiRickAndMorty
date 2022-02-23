@@ -5,7 +5,7 @@ import LogoBlue from '../../assets/logoBlue.png'
 function Logo({background, text, color}) {
   return (
       <div className='btnLogo'>
-        <img className='logoRyM' alt="logoBtn" src= {LogoBlue}/>
+        <a href='https://rickandmortyapi.com/' target='_blank'><img className='logoRyM' alt="logoBtn" src= {LogoBlue}/></a>
         </div>  
   )
 }
