@@ -21,6 +21,8 @@ This project was generated with
 * [Styled Components](https://styled-components.com/)
 
 * [React Paginate](https://www.npmjs.com/package/react-paginate)
+
+* [Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   
   <h2 style="text-align:center;color: purple">Installation</h2>
   *You can clone our public repository on: 

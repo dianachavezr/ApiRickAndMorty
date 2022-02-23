@@ -5,7 +5,7 @@ const Pagination = ({ info, page, setPage }) => {
     console.log(info)
     return (
 
-        <ReactPaginate className='pagination d-flex flex-wrap justify-content-center gap-4 my-4'
+        <ReactPaginate className='pagination d-flex flex-wrap justify-content-center gap-4 py-4 align-items-center m-0'
             forcePage={page == 1 ? 0 : page - 1}
             nextLabel='Next'
             previousLabel='Prev'
