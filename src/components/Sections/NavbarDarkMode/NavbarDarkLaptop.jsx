@@ -18,7 +18,6 @@ function NavbarDarkLaptop({background, text, color}) {
     </div>
     <div className='rightButtonsDark'>
     <NavLink to="/carruselpage"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Species'/></NavLink>
-    <NavLink to="#"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Games'/></NavLink>
     <ToggleSwitch label=" " />
     </div>
     </nav>

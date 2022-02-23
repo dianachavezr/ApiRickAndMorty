@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
 import PageConfigButton from '../../Buttons/pageConfigButton/PageConfigButton'
-import { NavLink, link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function NavbarLightLinks(props) {
@@ -17,7 +17,7 @@ function NavbarLightLinks(props) {
             <NavLink to="/"><LinkButton className='btnHome'  background='var(--black)'  color='var(--gray)'  text='Home'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-            <NavLink to='#'><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
+            <NavLink to='/characters'><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
             <NavLink to='/carruselpage'><LinkButton background='var(--black)'  color='var(--gray)'  text='Species' /></NavLink>

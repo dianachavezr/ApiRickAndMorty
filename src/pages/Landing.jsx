@@ -1,10 +1,10 @@
 import React from 'react';
 import LandingSec from "../components/Sections/LandingSec/LandinSec"
 
-const Landing = () => {
+const Landing = ({ onSet, detailCharacter }) => {
   return (
     <>
-         <LandingSec />
+         <LandingSec onSet={onSet} detailCharacter={detailCharacter}/>
     </>
   )
 }

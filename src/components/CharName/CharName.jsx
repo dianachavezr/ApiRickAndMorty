@@ -1,12 +1,13 @@
 import React from 'react'
 import './CharName.css'
 
-const CharName = () => {
+const CharName = ({ name }) => {
+
   return (
     <div className='contCharName'>
         <div className="lineTop"></div>
         <div className="nameChar">
-            Character Name
+            {name}
         </div>
         <div className="lineBotton"></div>
     </div>
