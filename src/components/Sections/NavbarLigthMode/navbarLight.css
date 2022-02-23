@@ -92,7 +92,7 @@
         position: absolute;
         top: auto;
         width: 30%;
-        left: 33%;
+        left: 30%;
         display: flex;
         justify-content: center;
     }
@@ -105,7 +105,7 @@
         position: absolute;
         width: 20%;
         top: auto;
-        left: 65%;
+        left: 70%;
     }
     .navbarHamburguer {
         display: none;

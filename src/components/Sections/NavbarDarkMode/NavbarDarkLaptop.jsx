@@ -14,7 +14,7 @@ function NavbarDarkLaptop({background, text, color}) {
     <NavLink to="/characters"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Characters'/></NavLink>
     </div>
     <div className='logoGreen'>
-    <LogoGreen/>
+   <LogoGreen/>
     </div>
     <div className='rightButtonsDark'>
     <NavLink to="/carruselpage"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Species'/></NavLink>
