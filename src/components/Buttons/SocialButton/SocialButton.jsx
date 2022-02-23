@@ -11,9 +11,9 @@ const SocialButton = () => {
     <div className='socialButton'>
         <div className='contSocial'>
           <a href="https://github.com/dianachavezr/ApiRickAndMorty/tree/main" target="_blank"><img src={Git} alt="" className='socialIcon'/></a>
-          <a href=""><img src={ReatIcon} alt="" className='socialIcon'/></a>
-          <a href=""><img src={ApiDocs} alt="" /></a>
-          <a href=""><img src={Educamas} alt="" /></a>
+          <a href="https://es.reactjs.org/docs/getting-started.html" target="_blank"><img src={ReatIcon} alt="" className='socialIcon'/></a>
+          <a href="https://rickandmortyapi.com/" target="_blank"><img src={ApiDocs} alt="" /></a>
+          <a href="https://educamas.com.co/" target="_blank"><img src={Educamas} alt="" /></a>
         </div>
     </div>
   )
