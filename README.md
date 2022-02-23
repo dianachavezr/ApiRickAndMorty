@@ -34,9 +34,18 @@ This project was generated with
     ### Deployment
 
   <h2 style="text-align:center;color: purple">Landing Page</h2>         
-  <img src="./src/assets/landing.png" width="650" style="display:block; margin:auto">             
+  <img src="./src/assets/landing.png" width="700" style="display:block; margin:auto">             
  <p>
 On this page there is a dynamic navigation bar that allows easy navigation through the website, you will also find a search input that filters the character of your preference, the visual style reflects the characteristics of the show and the animations make it more striking. </p>
+
+  <h2 style="text-align:center;color: purple">Carrusel Species Section</h2>         
+  <img src="./src/assets/carusel.png" width="650" style="display:block; margin:auto">             
+ <p>
+On this page we will find all the characters divided by species, Humans, ALiens. </p>
+
+<h2 style="text-align:center;color: purple">Characters</h2>         
+  <img src="./src/assets/card.jpeg" width="650" style="display:block; margin:auto">             
+ <p>Modal windows that show all the information of the character</p>
 
 
 
