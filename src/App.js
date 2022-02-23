@@ -1,10 +1,9 @@
-import TestComponent from './components/TestComponent';
 import './App.css';
-
+import Card from './components/cardComponents/card/Card';
 function App() {
   return (
     <div className="App">
-      <TestComponent />
+      <Card/> 
     </div>
   );
 }
