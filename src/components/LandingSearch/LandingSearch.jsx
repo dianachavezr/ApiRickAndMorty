@@ -37,8 +37,6 @@ function LandingSearch(props) {
               <input className='searchInput' placeholder="Type Character.." onChange={e => setTerm(e.target.value)}/>
               <button className='searchBtn' href='#' ><FaSistrix className='inputicon' /></button>
             </form>
-           
-           
           </div>
              {selectedCharacter && <h1>{selectedCharacter.name}</h1>}
       </div>

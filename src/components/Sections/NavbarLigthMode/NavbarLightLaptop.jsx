@@ -11,7 +11,7 @@ function NavbarLightLaptop({background, text, color}) {
 
     <div className='leftButtons'>
     <NavLink to="/"><LinkButton background='var(--black)'  color='var(--gray)'  text='Home'/></NavLink>
-    <NavLink to ="#"><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
+    <NavLink to="#"><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
     </div>
     <div className='logo'>
     <LogoRM/>

@@ -4,6 +4,7 @@ import Carousels from './pages/Carousels';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import NavbarDarkMode from './components/Sections/NavbarDarkMode/NavbarDarkMode';
 import NavbarLightMode from "./components/Sections/NavbarLigthMode/NavbarLightMode"
+import Footer from './components/Sections/Footer/Footer';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/carruselpage" element={<Carousels />} />
-      </Routes>
+     </Routes>
+      {location.pathname !== "/" && <Footer /> }
     </div>
   );
 }
