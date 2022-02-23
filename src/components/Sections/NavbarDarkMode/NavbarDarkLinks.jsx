@@ -1,11 +1,13 @@
 import React from 'react'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
+import LinkButtonGame from '../../Buttons/linkButton/LinkButtonGame'
 import PageConfigButton from '../../Buttons/pageConfigButton/PageConfigButton'
 import { NavLink } from 'react-router-dom';
 
 
 
 function NavbarDarkLinks(props) {
+
   return (
 
     <div className='navbarHamburguerDark'>
@@ -24,7 +26,7 @@ function NavbarDarkLinks(props) {
             <NavLink to="/carruselpage"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Species'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-            <NavLink to="#"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Games'/></NavLink>
+            <LinkButtonGame background='var(--transparent)' color='var(--blue)'  text='Games' url="https://www.minijuegos.com/juego/rick-mortys-rushed-licensed-adventure" />
             </li>
             
         </ul>
