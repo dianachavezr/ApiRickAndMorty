@@ -28,6 +28,7 @@ const TopTen = () => {
     
     return (
         <div className="container-carousel">
+            <h1  style={{color:"#33254C", textAlign:"center", marginBottom:"4%"}}>Top Ten Most Popular</h1>
             <div className="carousel-wrapper">
                 <Carousel breakPoints={breakPoints}>
                 {items.map((item) => (

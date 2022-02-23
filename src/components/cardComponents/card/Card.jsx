@@ -28,9 +28,10 @@ const Card = () => {
     <>
 
       <div className='cardContainer'>
-
+     
         {//onClick={(item)=>props.function(item)}
           results.map((item) => (
+            
             <div key={item.id} className='cardCharacter'>
               <img src={item.image} alt="imagen" />
               <div className='titleCard' onClick={() => setSelectChar(item)}>
