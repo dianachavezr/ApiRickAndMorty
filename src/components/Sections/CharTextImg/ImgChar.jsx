@@ -7,7 +7,7 @@ const ImgChar = ({image, id}) => {
     {
         1:'https://raw.githubusercontent.com/sarisp3260/IMG/main/R%26M%20IMG/Rick.png',
         
-        21: 'https://raw.githubusercontent.com/sarisp3260/IMG/main/R%26M%20IMG/Morthy2.png',
+        2: 'https://raw.githubusercontent.com/sarisp3260/IMG/main/R%26M%20IMG/Morthy2.png',
   
         242:'https://raw.githubusercontent.com/sarisp3260/IMG/main/R%26M%20IMG/Mr._Meeseeks.jpg',
 
@@ -27,7 +27,7 @@ const ImgChar = ({image, id}) => {
   
     }
 
-let array1 = [1,21,242,329,353,265,306,244,5,196]/* topTen.map(item => item.id) */
+let array1 = [1,2,242,329,353,265,306,244,5,196]/* topTen.map(item => item.id) */
 
   return (
     <div className='imgChar'>

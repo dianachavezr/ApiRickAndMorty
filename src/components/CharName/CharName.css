@@ -1,0 +1,29 @@
+.contCharName{
+    display: grid;
+    grid-template-rows: 70% 100% 70%;
+    width: 5%;
+    gap: 1rem;
+    position: absolute;
+    top: 12%;
+    height: 33vh;
+}
+.lineTop, .lineBotton, .nameChar{
+    margin: auto;
+}
+.lineTop, .lineBotton{
+    width: 5%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+}
+.nameChar{
+    font-size: 1.5rem;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    font-weight: 700;
+}
+@media (min--moz-device-pixel-ratio:0) and (max-width:1200px) {
+    .contCharName{
+        height: 30vh;
+    }
+}

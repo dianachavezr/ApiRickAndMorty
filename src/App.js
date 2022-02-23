@@ -14,12 +14,17 @@ function App() {
   return (
 
     <div className="App">
+
       {(location.pathname == "/" || location.pathname == "/carruselpage") ? <NavbarDarkMode /> : <NavbarLightMode />}
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/carruselpage" element={<Carousels />} />
-     </Routes>
+
+      </Routes>
       {location.pathname !== "/" && <Footer /> }
+
+     
+
     </div>
   );
 }
