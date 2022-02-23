@@ -19,6 +19,8 @@ This project was generated with
 * [React-elastic-carousel](https://www.npmjs.com/package/react-elastic-carousel)
   
 * [Styled Components](https://styled-components.com/)
+
+* [React Paginate](https://www.npmjs.com/package/react-paginate)
   
   <h2 style="text-align:center;color: purple">Installation</h2>
   *You can clone our public repository on: 
@@ -37,6 +39,10 @@ This project was generated with
   <img src="./src/assets/landing.png" width="700" style="display:block; margin:auto">             
  <p>
 On this page there is a dynamic navigation bar that allows easy navigation through the website, you will also find a search input that filters the character of your preference, the visual style reflects the characteristics of the show and the animations make it more striking. </p>
+
+<h2 style="text-align:center;color: purple">Filter Character</h2>         
+  <img src="./src/assets/rick.png" width="650" style="display:block; margin:auto">             
+ <p>This page show all info about the select character in input filter.</p>
 
   <h2 style="text-align:center;color: purple">Carrusel Species Section</h2>         
   <img src="./src/assets/carusel.png" width="650" style="display:block; margin:auto">             
