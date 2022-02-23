@@ -1,0 +1,51 @@
+.landingImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.portal{
+    position: relative;
+    width: 70%;
+    animation: portal 8s infinite linear;
+}
+
+.personajes{
+    position: absolute;
+    width: 90%;
+    transform:rotate(-9deg);
+ }
+ 
+/*Animacion*/
+@keyframes portal{
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg)};
+}
+
+/*Responsive imagenes*/
+
+ @media only screen and (min-width: 600px) {
+    .portal{
+        width: 65%;
+    }
+    .personajes{
+        width: 80%
+    }
+ }
+
+ @media only screen and (min-width: 1024px) {
+    .landingImage{
+       width: 50vw;
+      height: 100vh;
+     }
+    .portal{
+        width: 70%;
+     }
+    .personajes{
+        width: 48%;
+     }
+  }
+
+ 

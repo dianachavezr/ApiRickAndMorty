@@ -1,0 +1,70 @@
+.btnLogo{
+    display: flex;
+    justify-content: center;    
+}
+
+.logoRyM{
+    background-color:var(--transparent);
+    transition: 2s ease-in-out 100ms;
+    height: 65px;
+}
+
+.btnLogoGreen{
+    position: relative;
+    width: 165px;
+    height: 65px;
+    text-align: center;
+    margin-top: -10px;
+    color: var(--blue);
+}
+
+.btnLogoGreen p{
+    font-size: 1rem;   
+}
+
+
+.logoRyMGreen{
+    height: 70%;
+    background-color:var(--transparent);
+    transition: 2s ease-in-out 100ms;
+}
+
+.logoRyM:hover, .logoRyMGreen:hover {
+    rotate: x 360deg;
+    box-shadow: 0 0 150px var(--purple), 0 0 250px var(--blue), 0 0 150px var(--blue), 0 0 210px var(--purple);
+    border-radius: 15%;
+}
+
+@media (min-width: 425px) {
+    .logoRyM, .logoRyMGreen{
+        left: 43%;
+    }
+}
+
+@media (min-width: 425px) {
+    .logoRyM, .logoRyMGreen{
+        left: 43%;
+    }
+}
+
+@media (min-width:640px) {
+
+    .logoRyMGreen{
+        left: 3%;
+        top:-30px;
+        width: 200px;
+        height: 65px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .btnLogoGreen{
+        position: relative;
+        width: 220px;
+        height: 65px;
+        text-align: center;
+        margin-top: -10px;
+        font-size: 1.5rem; 
+    }
+}

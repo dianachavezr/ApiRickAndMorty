@@ -1,0 +1,122 @@
+
+    .toggle-switch {
+    position: relative;
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+    top: 3px;
+    left: 10px;
+    border: 1px solid var(--black);
+    border-radius: 50px;
+    }
+
+    .checkbox {
+    display: none;
+    }
+    .label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    font-size: 0.5rem;
+    }
+    .inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    }
+    .inner:before,
+    .inner:after {
+    float: left;
+    width: 50%;
+    height: 26px;
+    padding: 0;
+    line-height: 36px;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    }
+    .inner:before {
+    content: " ";
+    padding-left: 10px;
+    background-color: var(--black);
+    color: #fff;
+    }
+    .inner:after {
+    content: " ";
+    padding-right: 10px;
+    background-color: var(--gray);
+    color: #fff;
+    text-align: right;
+    }
+    .switch {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 3px 4px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 22px;
+    border: 0 solid var(--gray);
+    border-radius: 50%;
+    transition: all 0.3s ease-in 0s;
+    }
+    .checkbox:checked + .label .inner {
+    margin-left: 0;
+    }
+    .checkbox:checked + .label .switch {
+    right: 0px;
+    }
+    
+
+
+@media (min-width: 768px){
+    
+    .label{
+        font-size: 1rem;
+        width: 75px;
+        height: 40px;
+    }
+    .toggle-switch {     
+        width: 76.5px
+    }
+    .switch{
+        width: 35px;
+        height: 35px;
+        margin-top: 2px;
+        right: 32px;
+    }
+    .inner:before, .inner:after{
+        width: 50%;
+        height: 50px;
+    }
+}
+
+
+@media (min-width: 1024px){
+     
+    .label{
+        width: 102px;
+        height: 43px;
+    }
+    .toggle-switch {     
+        width: 104px
+    }
+
+    .switch{
+        width: 36px;
+        height: 36px;
+        margin-top: 3px;
+        right: 55px;
+    }
+    .inner:before, .inner:after{
+        width: 50%;
+        height: 50px;
+    }
+}
+
+

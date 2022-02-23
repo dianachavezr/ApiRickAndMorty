@@ -1,0 +1,11 @@
+/* .Copyright {
+    font-weight: 600;
+} */
+.Copyright {
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: end; /* center */
+    justify-content: center;
+    padding: 1rem 0;
+}
