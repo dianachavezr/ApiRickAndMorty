@@ -6,22 +6,22 @@ import TextChar from './TextChar'
 import Copyright from '../../copyright/Copyright'
 
 
-const CharTextImg = () => {
+const CharTextImg = (props) => {
 
     const [valid, setValid] = useState(true)
     const [character, setCharacter]  = useState({})
 
     useEffect(() => {
-        const getChar = async (/* id || url */) => {
-        let data = await fetch("https://rickandmortyapi.com/api/character/1")/* https://rickandmortyapi.com/api/character/${id} */
+        const getChar = async (id) => {
+        let data = await fetch(`https://rickandmortyapi.com/api/character/${id}`)/* https://rickandmortyapi.com/api/character/${id} */
         let resp = await data.json()
         console.log(resp.origin.name)
         console.log(resp)
         setCharacter(resp)
         setValid(false)
     }
-      getChar()
-  }, [])
+      getChar(props.id)
+  }, [props.id])
   
   
 

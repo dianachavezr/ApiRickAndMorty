@@ -5,6 +5,7 @@
     row-gap: 0.8rem;
     width: 100%;
     font-size: 0.7rem;
+    min-height: 100vh;
 }
 .cardCharacter{
     position: relative;
@@ -32,6 +33,13 @@
     padding: 0.2rem 0.5rem;
     width: 100%;
     color: black;
+}
+
+.pagination{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
