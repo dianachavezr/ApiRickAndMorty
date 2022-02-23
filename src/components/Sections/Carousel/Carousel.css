@@ -1,3 +1,8 @@
 .carruBody{
     background-color: var(--darkBlue);
 }
+@media screen and (min-width: 1220px)  {
+    .carruBody{
+        height: 250vh;
+    }
+    }

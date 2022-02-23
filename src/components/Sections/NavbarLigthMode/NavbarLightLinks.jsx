@@ -22,7 +22,7 @@ function NavbarLightLinks(props) {
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
             <NavLink to='/carruselpage'><LinkButton background='var(--black)'  color='var(--gray)'  text='Species' /></NavLink>
             </li>
-            <PageConfigButton/>
+            
         </ul>
        
 

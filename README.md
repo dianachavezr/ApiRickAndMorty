@@ -45,7 +45,7 @@ On this page we will find all the characters divided by species, Humans, ALiens.
 
 <h2 style="text-align:center;color: purple">Characters</h2>         
   <img src="./src/assets/card.jpeg" width="650" style="display:block; margin:auto">             
- <p>Modal windows that show all the information of the character</p>
+ <p>Modal windows that show all the information of the character.</p>
 
 
 

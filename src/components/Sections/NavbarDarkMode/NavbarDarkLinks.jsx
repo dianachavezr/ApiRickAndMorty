@@ -26,7 +26,7 @@ function NavbarDarkLinks(props) {
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
             <NavLink to="#"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Games'/></NavLink>
             </li>
-            <PageConfigButton/>
+            
         </ul>
        
 

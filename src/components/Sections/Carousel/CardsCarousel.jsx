@@ -33,6 +33,7 @@ function CardsCarousel() {
     return (
         <div className="container-carousel">
             <div className="carousel-wrapper">
+                <h1 className="carruTitle">HUMANOIDS</h1>
                 <Carousel breakPoints={breakPoints}>
                 {specie1.map((s) => (
                 <WideCard key={specie1.id}><img src={s.image} style={{borderRadius: 15 + 'px'}}/><p className="textName">{s.name}</p></WideCard>
@@ -41,6 +42,7 @@ function CardsCarousel() {
             </div>
 
             <div className="carousel-wrapper">
+            <h1 className="carruTitle">ROBOTS</h1>
                 <Carousel breakPoints={breakPoints}>
                 {specie2.map((s) => (
                 <WideCard key={specie2.id}><img src={s.image} style={{borderRadius: 15 + 'px'}}/><p className="textName">{s.name}</p></WideCard>
@@ -49,6 +51,7 @@ function CardsCarousel() {
             </div>
 
             <div className="carousel-wrapper">
+            <h1 className="carruTitle">ALIENS</h1>
                 <Carousel breakPoints={breakPoints}>
                 {specie3.map((s) => (
                 <WideCard key={specie3.id}><img src={s.image} style={{borderRadius: 15 + 'px'}}/><p className="textName">{s.name}</p></WideCard>

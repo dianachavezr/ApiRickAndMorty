@@ -18,7 +18,7 @@ function NavbarLightLaptop({background, text, color}) {
     </div>
     <div className='rightButtons'>
     <NavLink to="/carruselpage"><LinkButton background='var(--black)'  color='var(--gray)'  text='Species'/></NavLink>
-    <ToggleSwitch label=" " />
+    
     </div>
     </nav>
   )
