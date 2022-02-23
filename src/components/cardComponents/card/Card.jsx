@@ -21,21 +21,7 @@ const Card = () => {
     console.log(pageCharacter)
   }
 
-  function nextPage() {
-    if (page == 42) {
-      setPage(42)
-    } else {
-      setPage(page + 1)
-    }
 
-  }
-  function prevPage() {
-    if (page == 1) {
-      setPage(1)
-    } else {
-      setPage(page - 1)
-    }
-  }
 
 
   return (
@@ -56,12 +42,6 @@ const Card = () => {
         {selectChar && <ModalCharacter changeChar={setSelectChar} character={selectChar} />}
       </div>
       {info && <Pagination info={info} page={page} setPage={setPage}/>}
-      
-      <div className='pagination'>
-        <button onClick={() => prevPage()}>prevPage</button>
-        <span> Page {page} of 42 </span>
-        <button onClick={() => nextPage()}>NextPage</button>
-      </div>
     </>
   )
 }

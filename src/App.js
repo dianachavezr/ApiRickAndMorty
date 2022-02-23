@@ -32,7 +32,7 @@ function App() {
                 <Route path="/characters" element={<Characters />} />
                 <Route path="/character" element={<Character detailCharacter={detailCharacter}/>} />
             </Routes>
-            {location.pathname !== "/" && location.pathname !== "/character" && <Footer />}
+            {location.pathname !== "/" && location.pathname !== "/character"  && <Footer />}
         </div>
     );
 }
