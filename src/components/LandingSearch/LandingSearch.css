@@ -48,18 +48,17 @@ input:focus{
 }
 
 .inputBox{
-    background-color: transparent;
     width: 19rem;
     height: 7vh;
     display: flex;
     position: absolute;
-    top: 65%;
+    top: 100%;
     padding: 3px;
     align-items: center;
     justify-content: center;
+
 }
 .formBox{
-  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,13 +91,13 @@ input:focus{
       top: 70%;
     }
  }
- @media only screen and (min-width: 700px) {
+ @media only screen and (min-width: 768px) {
    
     .searchTitle{
        font-size: 1.9rem;
      }
      .inputBox{
-        top: 73%;
+        top: 80%;
       }
   }
   @media only screen and (min-width: 900px) {

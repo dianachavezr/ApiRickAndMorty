@@ -1,6 +1,7 @@
 import React from 'react'
 import LinkButton from '../../Buttons/linkButton/LinkButton'
 import PageConfigButton from '../../Buttons/pageConfigButton/PageConfigButton'
+import { NavLink, link } from 'react-router-dom';
 
 
 
@@ -14,16 +15,16 @@ function NavbarDarkLinks(props) {
         <ul>
    
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-                <a href='/'><LinkButton background='var(--transparent)' color='var(--blue)'  text='Home'/></a>
+                <NavLink to="/"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Home'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-            <a href='/#characters'><LinkButton background='var(--transparent)' color='var(--blue)'  text='Characters'/></a>
+            <NavLink to="#"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Characters'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-            <a href='/#shows'><LinkButton background='var(--transparent)' color='var(--blue)'  text='Shows'/></a>
+            <NavLink to="/carruselpage"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Species'/></NavLink>
             </li>
             <li  onClick={() =>props.isMobile && props.closeMenu()}>
-            <a href='/#games'><LinkButton background='var(--transparent)' color='var(--blue)'  text='Games'/></a>
+            <NavLink to="#"><LinkButton background='var(--transparent)' color='var(--blue)'  text='Games'/></NavLink>
             </li>
             <PageConfigButton/>
         </ul>
