@@ -4,7 +4,7 @@ import linkButton from './linkButton.css'
 function LinkButton({background, text, color}) {
   return (
     <button style={{background: background}}  
-     className='btn'><a href="#" style={{color:color}}>{text}</a>
+     className='btn'><a  style={{color:color}}>{text}</a>
     </button>
   )
 }
