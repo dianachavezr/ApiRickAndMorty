@@ -15,7 +15,7 @@ function NavbarLightLaptop({background, text, color}) {
     <NavLink to="/characters"><LinkButton background='var(--black)'  color='var(--gray)'  text='Characters'/></NavLink>
     </div>
     <div className='logo'>
-   <a href='https://rickandmortyapi.com/' target='_blank'> <LogoRM/></a>
+   <a href='https://rickandmortyapi.com/' target='_blank'rel="noreferrer"> <LogoRM/></a>
     </div>
     <div className='rightButtons'>
     <NavLink to="/carruselpage"><LinkButton background='var(--black)'  color='var(--gray)'  text='Species'/></NavLink>

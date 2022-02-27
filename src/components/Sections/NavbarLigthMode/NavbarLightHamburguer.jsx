@@ -34,8 +34,8 @@ function NavbarHamburguer() {
     return (
         <div className="navbarHamburguer">
             <div className="navbarHamburguerTop">
-                <a href="https://github.com/dianachavezr/ApiRickAndMorty" target='_blank'><img className="navbarHamburguer-Logo" src={Github} /></a>
-                <a href="https://educamas.com.co/programate/" target='_blank'><img className="navbarHamburguer-Logo" src={Educamas} /></a>
+                <a href="https://github.com/dianachavezr/ApiRickAndMorty" target='_blank' rel="noreferrer"><img className="navbarHamburguer-Logo" src={Github} /></a>
+                <a href="https://educamas.com.co/programate/" target='_blank' rel="noreferrer"><img className="navbarHamburguer-Logo" src={Educamas} /></a>
             </div>
             <Logo />
 
