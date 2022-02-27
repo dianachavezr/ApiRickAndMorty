@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ApiRickAndMorty/static/css/main.959edd53.css",
+    "main.js": "/ApiRickAndMorty/static/js/main.513977d2.js",
+    "static/js/415.cac50ae2.chunk.js": "/ApiRickAndMorty/static/js/415.cac50ae2.chunk.js",
+    "static/js/787.9b640a10.chunk.js": "/ApiRickAndMorty/static/js/787.9b640a10.chunk.js",
+    "static/media/logoGreen.png": "/ApiRickAndMorty/static/media/logoGreen.3bbcddb8c31579019495.png",
+    "static/media/cena4.png": "/ApiRickAndMorty/static/media/cena4.bfe68874279f2ae5d9d8.png",
+    "static/media/Rick and Morty.png": "/ApiRickAndMorty/static/media/Rick and Morty.f7a707b1c3d068bb9de0.png",
+    "static/media/r&m.png": "/ApiRickAndMorty/static/media/r&m.e8074ad1710a6c005006.png",
+    "static/media/logoBlue.png": "/ApiRickAndMorty/static/media/logoBlue.df73b7db546a5a50f92d.png",
+    "static/media/ApiDocs.png": "/ApiRickAndMorty/static/media/ApiDocs.491d6d2b9afb063e6d4a.png",
+    "static/media/close.png": "/ApiRickAndMorty/static/media/close.a3d8d12af3e4eb839853.png",
+    "static/media/react-brands.png": "/ApiRickAndMorty/static/media/react-brands.b781d2f1204cf2c75151.png",
+    "static/media/github.png": "/ApiRickAndMorty/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/EducamasLogoBlack.png": "/ApiRickAndMorty/static/media/EducamasLogoBlack.fab5191de188e6ef4bad.png",
+    "static/media/EducamasLogo.png": "/ApiRickAndMorty/static/media/EducamasLogo.3ba8a0d7d0e14b545915.png",
+    "static/media/github-brands.png": "/ApiRickAndMorty/static/media/github-brands.9ccdc6f3bde0e7c8f644.png",
+    "index.html": "/ApiRickAndMorty/index.html",
+    "main.959edd53.css.map": "/ApiRickAndMorty/static/css/main.959edd53.css.map",
+    "main.513977d2.js.map": "/ApiRickAndMorty/static/js/main.513977d2.js.map",
+    "415.cac50ae2.chunk.js.map": "/ApiRickAndMorty/static/js/415.cac50ae2.chunk.js.map",
+    "787.9b640a10.chunk.js.map": "/ApiRickAndMorty/static/js/787.9b640a10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.959edd53.css",
+    "static/js/main.513977d2.js"
+  ]
+}
