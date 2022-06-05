@@ -43,6 +43,7 @@ const Card = () => {
         {selectChar && <ModalCharacter changeChar={setSelectChar} character={selectChar} />}
       </div>
       {info && <Pagination info={info} page={page} setPage={setPage}/>}
+
     </>
   )
 }
